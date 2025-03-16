@@ -1,0 +1,58 @@
+.animate {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDownBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+    }
+    @keyframes fadeInDownBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+    } 
+
+.cross-main {
+    animation: moveUpDown 3s infinite ease-in-out;
+}
+.cross-header {
+    animation: moveUpDownHeader 3s infinite ease-in-out;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        top: 1350px;
+    }
+    50% {
+        top: 1250px;
+    }
+}
+
+@keyframes moveUpDownHeader {
+    0%, 100% {
+        top: 350px;
+    }
+    50% {
+        top: 450px;
+    }
+}

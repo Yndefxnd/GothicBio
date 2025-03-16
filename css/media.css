@@ -1,0 +1,171 @@
+@media (max-width: 1750px) {
+    .cross-main {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .cross-header, .cross-main {    
+        display: none;
+    }
+}
+
+@media (max-width: 1180px) {
+    .name {
+        font-size: 128px;
+    }
+    .underline-text {
+        width: 350px;
+        height: 150px;
+    }
+    .avatar {
+        width: 600px;
+        height: 350px;
+    }
+    #text {
+        font-size: 19px;
+    }
+    .bio-information {
+        width: 300px;
+        height: 310px;
+    }
+    .main-bio-text {
+        font-size: 24px;
+    }
+    .bio-item {
+        font-size: 24px
+    }
+}
+
+
+@media (max-width: 912px) {
+    .nav-menu {
+        font-size: 20px
+    }
+    .top-line {
+        width: 600px;
+        height: 190px;
+    }
+
+    .name {
+        font-size: 64px;
+    }
+    .underline-text {
+        width: 240px;
+        height: 100px;
+    }
+    .avatar {
+        width: 400px;
+        height: 200px;
+    }
+    #text {
+        font-size: 23px;
+    }
+    .bio-information {
+        width: 250px;
+        height: 310px;
+    }
+    .main-bio-text {
+        font-size: 24px;
+    }
+    .bio-item {
+        font-size: 15px
+    }
+    #carousel-area {
+        margin: 0;
+        perspective: 1500px;
+    }
+}
+
+@media (max-width: 630px) {
+    .nav-menu {
+        display: none;
+    }
+    .header-main-list {
+        margin-bottom: 50px
+    }
+    .header-list {
+        width: 311px;
+        height: 397px;
+    }
+    .main-text-list {
+        font-size: 24px;
+    }
+    .slogan {
+        position: relative;
+        bottom: 200px;
+        font-size: 24px;
+    }
+    .elements {
+        top: 0
+    }
+    .header-element {
+        width: 205px;
+        height: 117px;
+        top: 130px
+    }
+    .header-cross {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        bottom: 150px
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top-line {
+        max-width: 900px;
+    }
+    .footer-top-line {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .top-line {
+        max-width: 600px;
+    }
+    .footer-top-line {
+        max-width: 600px;
+    }
+    .underline-contacts {
+        max-width: 600px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .top-line {
+        max-width: 100%;
+        height: 150px;
+    }
+    .footer-top-line {
+        max-width: 100%;
+        height: 150px;
+    }
+    .underline-contacts {
+        max-width: 100%;
+        height: 150px;
+    }
+    .avatar {
+        max-width: 100%;
+        height: 200px;
+    }
+    #text {
+        font-size: 15px;
+    }
+    .main-info {
+        position: relative;
+        top: 90px
+    }
+}
+
+@media (max-width: 485px) {
+    .bio__container {
+        flex-direction: column;
+    }
+}
